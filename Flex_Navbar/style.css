@@ -6,13 +6,14 @@
     justify-content: space-between;
     width: 800px;
     height: 50px;
-    background-color:darkslategray;
+    background-color:rgb(62, 74, 74);
+    padding-left: 20px;
 }
 
 .nav-title {
     font-family: 'Roboto', sans-serif;
+    color: white;
     width: 200px;
-    background-color: aliceblue;
 }
 .nav-links {
     display: flex;
@@ -38,6 +39,7 @@ li {
 .btn {
     color: white;
     background-color: aqua;
+    box-shadow: 3px 3px black;
 }
 
 
