@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#container {
+    width: 600px;
+    height: 250px;
+
+}
+
+#user {
+    height: 70px;
+    width: 70px;
+}
+
+#content-top {
+    height: 70px;
+    background-color: deepskyblue;
+}
+
+#content-bottom {
+    background-color: white;
+    height: 200px;
+    border-left: 3px solid silver;
+    border-bottom: 3px solid silver;
+    border-right: 3px solid silver;
+}
