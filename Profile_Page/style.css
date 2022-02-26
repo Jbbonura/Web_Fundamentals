@@ -8,7 +8,7 @@ body {
 }
 #container {
     width: 1200px;
-    height: 600px;
+    height: 670px;
     background-color: white;
 }
 
@@ -51,7 +51,7 @@ body {
 
 #content-container {
     display: flex;
-    height: 518px;
+    height: 588px;
     padding: 25.2px 200px 0px 200px;
 }
 
@@ -148,6 +148,7 @@ body {
 #usercard3 {
     height: 190px;
     border: 3px solid lightslategray;
+    margin-bottom: 30px;
 }
 
 #usercard3-top {
@@ -183,17 +184,79 @@ body {
 
 .contact {
     display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
+.contactinfo {
+    display: flex;
+}
 .contactphoto {
     border-radius: 50%;
     width: 40px;
 }
 
-.contact > p {
+
+.contactinfo > p {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+    margin-left: 10px;
     margin-right: 10px;
 }
-/* 
-continue setting up contact class */
+
+.contactbuttons {
+    display: flex;
+    margin-left: 20px; 
+    align-items: center;
+}
+
+.contactbuttonimg {
+    width: 37px;
+}
+
+.contactbuttons > .contactbuttonimg:first-child {
+    margin-right: 5px;
+}
+
+#usercard4-top {
+    background-color: black;
+    height: 30px;
+    padding: 15px 10px;
+}
+
+#connectionnumber {
+    background-color: lightslategrey;
+    border-radius: 50%;
+    width: 69px;
+    height: 30px;
+    display: inline-block;
+}
+#connectionnumber> p {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+#usercard4-top > p {
+    color: silver;
+    display: inline-block;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+#usercard4-middle {
+    height: 220px;
+    border: 3px solid lightslategray;
+    padding: 10px;
+}
+
+#usercard4-bottom {
+    height: 20px;
+    border: 3px solid lightslategray;
+    padding:10px;
+}
+
+#usercard4-bottom > a {
+    font-size: 21px;
+}
