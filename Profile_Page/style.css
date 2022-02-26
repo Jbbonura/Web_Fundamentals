@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: green;
+}
+#container {
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+}
+
+#nav {
+    /* height: 100px; */
+    background-color: black;
+    padding: 10px 200px;
+    display: flex;
+    align-items: center;
+}
+
+#nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 3;
+}
+
+#nav-left > h1 {
+    color: white;
+}
+
+#nav-left > a {
+    margin-left: 65px;
+    text-decoration: none;
+    color: silver;
+}
+
+#nav-left > a:nth-of-type(2) {
+    color: white;
+}
+
+#nav-right > button {
+    width: 75px;
+    height: 25px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border: none;
+}
+
+#content-container {
+    display: flex;
+    height: 518px;
+    padding: 25.2px 200px 0px 200px;
+}
+
+#left-content {
+    flex: 2;
+}
+
+
+
+#usercard1 {
+    height: 317px;
+    margin-bottom: 30px;
+    border: 3px solid lightslategray;
+}
+
+#usercard1-top {
+    height: 100px;
+    background-color: rgb(0, 128, 155);
+}
+
+#usericon {
+    height: 100px;
+}
+
+#usercard1-bottom {
+    padding-left: 25px;
+}
+
+#info {
+    position: relative;
+    top: -50px;
+}
+
+#mapmarker {
+    width: 12px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#info > p:nth-of-type(1) {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#gear {
+    width: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#info > a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#usercard2 {
+    border: 3px solid lightslategray;
+    border-bottom: none;
+    height: 161px;
+}
+
+#usercard2-top {
+    height: 30px;
+    background-color: black;
+    padding: 10px 25px;
+}
+
+#usercard2-top > p {
+    color: silver;
+    margin-top: 5px;
+    font-size: 19px;
+}
+
+#usercard2-bottom {
+    padding: 10px 0px 0px 20px;
+}
+
+#usercard2-bottom > h2 {
+    margin-bottom: 10px;
+}
+
+#usercard2-bottom > p {
+    margin-bottom: 10px;
+}
+
+#right-content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#usercard3 {
+    height: 190px;
+    border: 3px solid lightslategray;
+}
+
+#usercard3-top {
+    background-color: black;
+    height: 30px;
+    padding: 15px 10px;
+}
+
+#requestnumber {
+    background-color: lightslategrey;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+#requestnumber> p {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+#usercard3-top > p {
+    color: silver;
+    display: inline-block;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+#usercard3-bottom {
+    padding: 20px 10px;
+}
+
+.contact {
+    display:flex;
+}
+
+.contactphoto {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.contact > p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+/* 
+continue setting up contact class */
