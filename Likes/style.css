@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 600px;
+    height: 400px;
+    padding: 25px 100px;
+}
+
+#content {
+    width: 300px;
+    height: 100px;
+    border: 3px solid black;
+    padding: 15px;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#like {
+    width: 50px;
+    height: 20px;
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+}
