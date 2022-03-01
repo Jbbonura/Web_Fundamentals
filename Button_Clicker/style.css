@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    height: 700px;
+    padding: 1px 100px;
+}
+
+#navbar {
+    height: 50px;
+    background-color: silver;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchbar {
+    width: 320px;
+}
+
+#login {
+    width: 50px;
+    background-color:dodgerblue;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+#content {
+    height: 600px;
+    padding-top: 25px;
+}
+
+#content-top {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.definition {
+    flex: 2;
+    border: 3px solid black;
+    height: 150px;
+    margin-right: 20px;
+    display: flex;
+}
+
+#self-definition {
+    border: 3px solid black;
+    flex: 1;
+    height: 105px;
+    padding-left: 10px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#self-definition > h3 {
+    font-size: 25px;
+}
+
+#add-definition {
+    margin: 10px auto;
+    width: 200px;
+    background-color: rgb(120, 155, 59);
+    box-shadow: 3px 3px black;
+}
+#content-bottom > .definition {
+    width: 506px;
+}
+
+.definition-left {
+    flex: 1;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.definition-left > h3 {
+    margin-bottom: 10px;
+}
+
+.definition-left > p {
+    margin-bottom: 20px;
+}
+
+.definition-left > button {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(224, 224, 53);
+    box-shadow: 2px 2px black;
+}
+
+
+.definition-right {
+    flex: 2;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+

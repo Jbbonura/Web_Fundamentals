@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div>
+                <h1>Dojonary</h1>
+            </div>
+            <div>
+                <!-- <textarea cols="40" rows="1.5">Search</textarea> -->
+                <input type="text" placeholder="Search" id="searchbar">
+            </div>
+            <div>
+                <button id="login" onclick="login(this)">Login</button>  
+            </div>
+        </div>
+        <div id="content">
+            <div id="content-top">
+                <div class="definition">
+                    <div class="definition-left">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button class="top-likes" onclick="addLikesTop(this)">13 likes</button>
+                    </div>
+                    <div class="definition-right">
+                        <h3>A practition skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></h3>
+                    </div>
+                </div>
+                <div id="self-definition">
+                    <h3>Dojonary is defined by <strong>YOU</strong></h3>
+                    <button id="add-definition" onclick="buttonRemove(this)">Add Definition</button>
+                </div>
+            </div>
+            <div id="content-bottom">
+                <div class="definition">
+                    <div class="definition-left">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button class="bottom-likes" onclick="addLikesBottom(this)">37 likes</button>
+                    </div>
+                    <div class="definition-right">
+                        <h3>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
